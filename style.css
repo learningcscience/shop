@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+* {
+  	box-sizing: border-box;
+ 	margin: 0;
+	font-family: 'Barlow', sans-serif;
+}
+
+.row::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+
+[class*="col-"] {
+  	float: left;
+  	padding: 15px;
+}
+
+
+
+
+[class*="col-"] {
+  	width: 100%;
+}
+.background{
+	background-image: url("images/back.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+.nav{
+	overflow: hidden;
+	background :#D7263D;
+	z-index: 9999999;	
+}
+::selection{
+	background: #D7263D;
+	color: white;
+}
+.drpcnt{
+	overflow: hidden;
+
+}
+.nav a{
+	text-decoration: none;
+	padding: 20px 22px;
+	color: white;
+	float: left;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+
+.dropdown {
+    	float: left;
+    	display: block;
+}
+a.icon{
+	display: none;
+}
+
+button.drpbtn{
+	border: none;
+	boder-left: 2px solid white;
+	outline: none;
+	padding: 20px 22px;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	background: inherit;
+	
+}
+.drpcnt a{
+	display: block;
+	//border-left: 2px solid white;
+	width: 100%;
+}
+.drpcnt{
+	display: block;
+	display: none;
+	position: absolute;
+	background: #DD4055;
+	color: white;
+	overflow: hidden;
+	width: 10%;
+	z-index: 9999999;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown:hover .drpcnt{
+	display: block;
+}
+.drpcnt a:hover{
+	background: #AD1F32;
+	border-left: 2px solid white;
+	font-weight: normal;
+	margin-top: 10%;
+	transition: .3s;
+}
+
+.img{
+	text-align: center;
+}
+p.u-text{
+	font-weight: bold;
+	font-size: 18px;
+}
+i.fa.fa-star, i.fa.fa-star-o, i.fa.fa-star-half{
+	color: orange;
+}
+
+.money{
+	display: flex;
+	justify-content: space-evenly;
+}
+span.spn{
+	background: #D7263D;
+	padding: 5px 15px;
+}
+button{
+	border: 1px solid #D7263D;
+	outline: none;
+	padding: 10px 50px;
+	background: #fff;
+	font-size: 19px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 1s;
+	color: #DD4055;
+}
+strike{
+	color: black;
+}
+button:hover{
+	background: #D7263D;
+	color: white;
+	transition: all 1s;
+}
+
+
+#added {
+  	visibility: hidden;
+  	min-width: 250px;
+  	margin-left: -125px;
+  	background-color: #222;
+  	color: #fff;
+  	text-align: center;
+  	border-radius: 2px;
+  	padding: 16px;
+  	position: fixed;
+  	z-index: 1;
+  	left: 50%;
+  	bottom: 30px;
+  	font-size: 17px;
+}
+
+#added.show{
+	visibility: visible;
+}
+
+.footer a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+.row.footer{
+	background : #AD1F32;
+	text-align: center;
+	color: white;
+}
+h3{
+	border-bottom: 2px solid white;
+	padding: 10px 20px;
+}
+.row img{
+	transition: all 1s;
+}
+  
+.shopping img:hover{
+	transition: all 1s;
+	transform: scale(0.9);
+	z-index: 0;	
+
+}
+h1.jumbo {
+    	color: white;
+	font-size: 6em;
+	text-align: center;
+
+}
+.row.page-2{
+	text-align: center;
+}
+button.add-cart{
+	font-family: 'Barlow', sans-serif;
+}
+h1.buy{
+	text-align: center;
+	font-size: 3em;
+	margin-top: 10px;
+	
+}
+.buy input{
+	width: 70%;
+	padding: 12px;
+	margin: 10px;
+	outline: none;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+.buy input:hover{
+	//border: 1px solid  #AD1F32;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.buy input:focus{
+	border: 1px solid  #AD1F32;
+
+	
+}
+h1{
+	text-align: center;
+}
+.contact-on{
+	text-align: center;
+}
+i.fa.book {
+    	padding: 20px;
+    	font-size: 25px;
+    	border: 2px solid pink;
+    	color: hotpink;
+    	border-radius: 50%;
+	transition: all 1s;
+}
+i.fa.book:hover{
+	background: pink;
+	color: white;
+	transition: .1s;
+}
+i.fa.fa-facebook.book{
+	padding: 20px 25px;
+}
+form input{
+	width: 50%;
+	padding: 14px;
+	margin: 15px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	background: #f1f1f1;
+}
+input[type="submit"]{
+	color: white;
+	background: green;
+}
+form{
+	text-align: center;
+}
+::placeholder{
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+.row.buy{
+	text-align: center;		
+}
+
+button.pay{
+	border-radius: 5px;
+}
+textarea{
+	width: 50%;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	font-weight: bold;
+	background: #f1f1f1;
+	text-align: center;
+}
+.main{
+	position: relative;
+	max-width: 300px;
+ 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.content {
+   	//position: absolute;
+   	//bottom: 0;
+   	color: white;
+    	text-align: center;
+    	width: 100%;
+    	background: rgba(0 150 136 / 52%);
+	padding: 20px;
+}
+.photocnt{
+	display: flex;
+	justify-content: space-evenly;
+}
+h4.heading{
+	font-size: 20px;
+}
+h2{
+	text-align: center;
+}
+.merotext{
+
+	background: rgba(0 150 136 / 52%);
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: blod;
+}
+@media only screen and (max-width: 700px) {
+
+ .nav a:not(:first-child), .dropdown .drpbtn {
+    	display: none;
+}
+
+	.nav {
+		position: relative;
+		position: fixed;
+		top:0;	
+		left:0;
+		width:100%;
+	}
+	.drpcnt{
+		width: 100%;
+	}
+	.nav a:hover{
+		background: #222;
+	}
+	.nav a.icon{
+		display: block;
+		position: absolute;
+		top:0;
+		float: none;
+		right: 0;
+	}
+	.form input{
+		width: 100%;
+	}
+	textarea{
+		width: 70%;
+	}
+
+
+	div.nav.clicked a {
+		display: block;
+		float: none;
+		text-align: left;
+	}
+  	.nav.clicked .dropdown {float: none;}
+  
+  	.nav.clicked .drpcnt{position: relative;}
+  
+  	.nav.clicked .dropdown .drpbtn {
+    		display: block;
+    		width: 100%;
+    		text-align: left;
+  	}
+	img{
+		width: 100%;
+		height:auto;
+	}
+	h1.jumbo{
+		font-size: 40px;
+		text-align: center;
+	}
+	h1.buy{
+		margin-top: 20%;	
+	}
+	.background{
+		margin-top:18%;
+	}
+	.row.footer{
+		max-width: 100%;
+	}
+	.photocnt{
+		    flex-direction: column;
+		    margin-left: 8%;
+	}
+	h2{
+		text-align: center;
+	}
+
+	
+	
+
+}

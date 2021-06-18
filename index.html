@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+
+<title> Online Shop - Home </title>
+
+<link rel = "icon" href ="images/logo.jpg" type = "image/x-icon">
+
+</head>
+<body>
+
+
+<div class="row">
+	<div class="nav" id="bar">
+		<a href="index.html"> Home </a>
+	<div class="dropdown">
+		<button class="drpbtn">Sports <i class="fa fa-caret-down"></i></button>
+	<div class="drpcnt">
+		<a href="football.html"> Football</a>
+		<a href="volleyball.html">Volleyball</a>
+		<a href="circket.html"> Cricket ball</a>
+		<a href="badminton.html"> Badminton</a>
+	</div>
+	</div>
+
+
+	<div class="dropdown">
+		<button class="drpbtn"> Fashion <i class="fa fa-caret-down"></i> </button>
+	<div class="drpcnt">
+			<a href="cloth.html"> Clothing </a>
+			<a href="shoe.html"> Shoes </a>
+			<a href="bag.html"> Bags </a>
+	</div>
+	</div>
+
+
+	<div class="dropdown">
+		<button class="drpbtn"> Grocries <i class="fa fa-caret-down"></i></button>
+	<div class="drpcnt">
+		<a href="rice.html"> Foods </a>
+		<a href="insta.html"> Instant foods </a>
+		<a href="egg.html"> Healthy foods </a>
+	</div>
+	</div>
+		<a href="contact.html"> Contact </a>
+		<a href="about.html"> About us  </a>
+		<a href="javascript:void(0)" class="icon" onclick="Click()"><i class="fa fa-bars"></a></i>
+
+	</div>
+
+</div>
+<div class="background">
+	<h1 class="jumbo">Welcome to <span class ="spn"> online shop</span> </h1>
+</div>
+
+<br>
+
+
+
+
+<h1> Just for you </h1>
+
+<div class="row img">
+
+	<div class="col-4 shopping">
+
+		<img src="images/f1.jpg" width="200"><br><br>
+	
+		<div class="money">
+			<span><strike><p class="u-text"> Rs: 2000 </p></strike></span>
+			<p class="u-text"> Rs: 1200 </p>
+		</div><br>
+		<p class="u-text">  A red football </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+				<i class="fa fa-star-o"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart  </button>
+		<div id="added">  Item added to cart</div>
+</div>
+
+
+
+
+
+
+
+<div class="col-4 shopping">
+
+<img src="https://5.imimg.com/data5/TF/IW/MY-17554435/men-casual-pant-500x500.jpg" width="250" height="220">
+
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:2,500</p></strike></span>
+			<p class="u-text"> Rs: 2,000 </p>
+		</div><br>
+		<p class="u-text">  Pant </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+
+<div class="col-4 shopping">
+<img src="images/stylish.jpg" width="250" height="220">
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:3,330</p></strike></span>
+			<p class="u-text"> Rs: 1500 </p>
+		</div><br>
+		<p class="u-text">  Stylish sport shoes</p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+
+</div>
+
+</div><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row img">
+
+
+<div class="col-4 shopping">
+<img src="https://www.belaamie.com/wp-content/uploads/2020/09/Puffed-Rice.jpg" width="200"><br><br>
+		<div class="money">
+			<span><strike><p class="u-text"> Rs: 2000 </p></strike></span>
+			<p class="u-text"> Rs: 1500</p>
+		</div><br>
+		<p class="u-text">  Basmati rice </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+
+
+
+
+
+<div class="col-4 shopping">
+<img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/077399/01/dt03/fnd/SEA/fmt/png/Classics-Women's-College-Bag" width="250" height="220">
+
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:1,800</p></strike></span>
+			<p class="u-text"> Rs: 1,200 </p>
+		</div><br>
+		<p class="u-text">  Black bag </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+<div class="col-4 shopping">
+<img src="https://cdn.shopify.com/s/files/1/0174/0580/4598/products/1321023_BLAC_2_c0b58001-12f8-49fb-b011-ce9e7c793f99_300x300.jpg?v=1620942440" width="250" height="220">
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:3,330</p></strike></span>
+			<p class="u-text"> Rs: 1500 </p>
+		</div><br>
+		<p class="u-text">  Hat for men </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+				<i class="fa fa-star-half"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+
+
+</div>
+</div><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row img">
+
+	<div class="col-4 shopping">
+<img src="https://www.bfgcdn.com/1500_1500_90/533-1043-0211/castelli-castelli-water-bottle-cycling-water-bottles.jpg" width="200"><br><br>
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:800</p></strike></span>
+			<p class="u-text"> Rs: 500</p>
+		</div><br>
+		<p class="u-text"> Red water bottle  </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+
+
+
+
+
+<div class="col-4 shopping">
+<img src="https://i.pinimg.com/originals/cd/3b/36/cd3b36c728c422b3337500f36862d47a.png" width="250" height="220">
+
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:672</p></strike></span>
+			<p class="u-text"> Rs:432 </p>
+		</div><br>
+		<p class="u-text"> Toy for kids </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-half"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+<div class="col-4 shopping">
+<img src="https://cdn.shopify.com/s/files/1/1968/5547/products/IMG_2325.JPG?v=1621916714" width="250" height="220">
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:30</p></strike></span>
+			<p class="u-text"> Rs:20 </p>
+		</div><br>
+		<p class="u-text">  Instant noodle </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+				<i class="fa fa-star-half"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+
+</div>
+</div><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row img">
+
+	<div class="col-4 shopping">
+<img src="https://uzisports.com/image/cache/catalog/Cricket%20balls/uzi/uzi%202/MatchBall-1-600x600-0-2459024591.jpg" width="200"><br><br>
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:500 </p></strike></span>
+			<p class="u-text"> Rs: 350</p>
+		</div><br>
+		<p class="u-text">  Cricket ball  </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+
+
+
+
+<div class="col-4 shopping">
+<img src="https://images-na.ssl-images-amazon.com/images/I/81BmTHaur0L._AC_SL1500_.jpg"width="250"height="220">
+
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:400</p></strike></span>
+			<p class="u-text"> Rs:300 </p>
+		</div><br>
+		<p class="u-text"> Eggs for sale </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+
+<div class="col-4 shopping">
+<img src="https://3docean.img.customer.envatousercontent.com/files/273007223/volleyBall_3x3_prev.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=6b456eab4f834e4fa29ee11f2386c3bb" width="250" height="220">
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:2500</p></strike></span>
+			<p class="u-text"> Rs:2200 </p>
+		</div><br>
+		<p class="u-text">  A volleyball </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+
+</div>
+</div><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row img">
+
+	<div class="col-4 shopping">
+<img src="https://noonansyndrome.org.uk/wp-content/uploads/2015/12/t-shirt-.jpg" width="200"><br><br>
+		<div class="money">
+			<span><strike><p class="u-text"> Rs: 1500</p></strike></span>
+			<p class="u-text"> Rs: 1200</p>
+		</div><br>
+		<p class="u-text"> T-shirt  </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+
+
+
+
+
+<div class="col-4 shopping">
+<img src="https://ae01.alicdn.com/kf/H36c67acc13ea4e87bed49c0e1ce81e2cj/hot-sale-KUNLI-08-top-grade-black-goose-feather-badminton-Shuttlecock-goose-feather-shuttlecock-for-training.jpg_Q90.jpg_.webp" width="250" height="220">
+
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:1300</p></strike></span>
+			<p class="u-text"> Rs:1000 </p>
+		</div><br>
+		<p class="u-text">Basminton in sale </p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+				<i class="fa fa-star-half"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div>
+
+
+
+<div class="col-4 shopping">
+<img src="https://img.joomcdn.net/a1de30bfc80e68e4c6445d18cd44071eba13cc22_original.jpeg" width="250" height="220">
+		<div class="money">
+			<span><strike><p class="u-text"> Rs:670</p></strike></span>
+			<p class="u-text"> Rs:450 </p>
+		</div><br>
+		<p class="u-text"> Underwear for boys</p> <br>
+			<div clas="rating">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+				<i class="fa fa-star-half"></i>
+			</div><br>
+		<button onclick="run()"> Add to cart </button>
+		<div id="added">  Item added to cart</div>
+	</div><br>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="row footer">
+
+
+		<div class="col-3">
+			<h3> Sports </h3><br><br>
+				<a href="football.html"> Football</a><br><br>
+				<a href="volleyball.html">Volleyball</a><br><br>
+				<a href="circket.html"> Cricket ball</a><br><br>
+				<a href="badminton.html"> Badminton</a><br>
+		</div>	
+
+		<div class="col-3">
+			<h3> Grocries</h3><br><br>
+				<a href="rice.html"> Foods </a><br><br>
+				<a href="insta.html"> Instant foods </a><br><br>
+				<a href="egg.html"> Healthy foods  </a><br>
+		</div>
+
+		<div class="col-3">
+			<h3> Fashion</h3><br><br>
+				<a href="cloth.html"> Clothing </a><br><br>
+				<a href="shoe.html"> Shoes </a><br><br>
+				<a href="bag.html"> Bags </a><br><br>
+		</div>
+
+		<div class="col-3">
+			<h3> Floow us</h3><br><br>
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-linkedin"></i>
+		</div>
+		
+
+</div>
+
+	<div class="merotext">
+		<p class="foot"> &copy; All Rights Reserved online shop 2021</p>
+	</div>
+
+<script>
+	function Click() {
+  		var x = document.getElementById("bar");
+  			if (x.className === "nav") {
+   				 x.className += " clicked";
+  			} 
+		else {
+    			x.className = "nav";
+ 		 }
+	}
+
+	function run(){
+
+		  var x = document.getElementById("added");
+
+  		x.className = "show";
+
+ 		 setTimeout(function(){ 
+
+		x.className = x.className.replace("show", ""); }, 3000);
+
+	}
+
+</script>
+
+
+</body>
+</html>
